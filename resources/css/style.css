@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color:black;
+}
+
+header{
+    padding:60px 20px;
+    text-align:center;
+    color:white;
+
+}
+
+header h1{
+    font-family:Verdana,sans-serif;
+    font-weight:normal;
+    font-size:40px;
+    margin-bottom:20px;
+
+}
+
+header a{
+    color:aquamarine;
+    font-size:16px;
+    text-decoration:underline;
+
+}
+
+.video-section{
+    text-align:center;
+    background-color:black;
+}
+
+.bottom-section{
+    padding:60px 20px;
+    text-align:center;
+    color:white;
+    font-family:Verdana, sans-serif;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.bottom-section h1{
+    margin-bottom:20px;
+    font-weight:300;
+    font-size:42px;
+}
+
+.bottom-section span{
+    color:gray;
+    font-size:21px;
+    display:inline-block;
+    margin-bottom:25px;
+}
+
+.bottom-section p{
+    margin-top:20px;
+    width:100%;
+}
+
+.bottom-section img{
+    max-width:100%;
+    height:auto;
+    margin:0 auto;
+    display:block;
+}
+
+.end-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+
+    padding:60px 20px;
+    text-align:center;
+    color:white;
+}
+
+.end-section img{
+    width:50px;
+    height:auto;
+}
+
+.end-section h1{
+    font-family: Verdana,sans-serif;
+    font-weight:300;
+    font-size:24px;
+}
+
+.end-section a{
+    text-decoration:underline;
+    color:aquamarine;
+}
+
+footer{
+    color:gray;
+    height:30px;
+    text-align:right;
+    padding-right:10px;
+}
+
+
+
+
